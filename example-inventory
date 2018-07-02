@@ -1,0 +1,6 @@
+[nodos]
+10.199.101.125
+
+[nodos:vars]
+es_api_basic_auth_username=admin
+es_api_basic_auth_password=cautiva
