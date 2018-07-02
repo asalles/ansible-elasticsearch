@@ -1,0 +1,10 @@
+---
+- hosts: "nodos"
+  remote_user: root
+
+#  tasks: 
+#  - command : ansible-galaxy install elastic.elasticsearch
+  #   delegate_to : localhost
+
+  roles:
+   - { role: elastic.elasticsearch , es_instance_name: "elastic" }
