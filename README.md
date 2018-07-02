@@ -1,3 +1,6 @@
+UPDATE: En el nodo de control ejecutar antes "ansible-galaxy install elastic.elasticsearch". Luego revisar si creó el rol en "~/.ansible/roles/elastic.elasticsearch". Paso siguiente sería modificar example-inventory y luego ejecutar example.yml
+
+
 # ansible-elasticsearch
 [![Build Status](https://img.shields.io/jenkins/s/https/devops-ci.elastic.co/job/elastic+ansible-elasticsearch+master.svg)](https://devops-ci.elastic.co/job/elastic+ansible-elasticsearch+master/)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-elastic.elasticsearch-blue.svg)](https://galaxy.ansible.com/elastic/elasticsearch/)
