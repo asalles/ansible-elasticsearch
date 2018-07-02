@@ -1,4 +1,4 @@
-UPDATE: En el nodo de control ejecutar antes "ansible-galaxy install elastic.elasticsearch". Luego revisar si creó el rol en "~/.ansible/roles/elastic.elasticsearch". Paso siguiente sería modificar example-inventory y luego ejecutar example.yml
+UPDATE: En el nodo de control ejecutar antes "ansible-galaxy install elastic.elasticsearch". Luego revisar si creó el rol en "~/.ansible/roles/elastic.elasticsearch" ó "/etc/ansible/roles/elastic.elasticsearch". Paso siguiente sería modificar example-inventory y luego ejecutar example.yml
 
 
 # ansible-elasticsearch
